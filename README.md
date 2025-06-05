@@ -41,3 +41,22 @@ BOM available in Electronic Design package.
 
 ### Contributions
 If you find any bugs, have suggestions, or would like to contribute to the development of this project, feel free to contact me or submit a pull request (PR). Your contributions are greatly appreciated, and I am always open to feedback and collaboration. Thank you for helping to improve this project!
+
+---
+
+## 🔗 Links
+
+- 🔧 [Official STLINK-V3MINIE Product Page – STMicroelectronics](https://www.st.com/en/development-tools/stlink-v3minie.html)  
+  Detailed product info, datasheet, and technical documentation.
+
+- 📄 [STLINK-V3MINIE User Manual (UM2910)](https://www.st.com/resource/en/user_manual/um2910-stlinkv3minie-evaluation-board-stmicroelectronics.pdf)  
+  Full user guide with hardware description, pinout, and usage instructions.
+
+- 📥 [STM32CubeProgrammer (ST’s official programming software)](https://www.st.com/en/development-tools/stm32cubeprog.html)  
+  Software to flash and debug STM32 microcontrollers using STLINK.
+
+- 💾 [STLINK USB Drivers for Windows](https://www.st.com/en/development-tools/stsw-link009.html)  
+  Required drivers for using STLINK on Windows systems.
+
+- 💡 [ST Community Forum – STLINK topics](https://community.st.com/s/topic/0TO0X000000BSqLWAW/stlink)  
+  Discussions, troubleshooting, and tips shared by developers.

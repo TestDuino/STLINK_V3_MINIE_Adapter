@@ -1,20 +1,23 @@
-# STLINK_V3_MINIE_Adapter
+# STLINK_V3_MINIE_Adapter  
+*DIN-rail mountable adapter with ESD protection and industrial-grade terminal blocks for STLINK-V3MINIE*
 
-**DIN Rail Adapter for STLINK-V3MINIE**  
-A robust and convenient adapter for mounting the **STLINK-V3MINIE** programmer/debugger on a standard 35 mm DIN rail. Designed for industrial environments, this adapter simplifies connections and protects your equipment during development, production testing, or field maintenance.
+A robust, industrial-grade adapter for securely mounting the **STLINK-V3MINIE** programmer/debugger on a standard 35 mm DIN rail.  
+It features built-in ESD protection and spring-loaded terminal blocks for fast, reliable connections. Designed for use in development labs, test stations, and industrial environments.
 
 ---
+
 ## 🔧 Description
 
-This adapter enables secure and tool-free connections to the STLINK-V3MINIE using industrial-grade terminal blocks and includes built-in ESD protection for enhanced reliability.
+This adapter provides secure, tool-less wiring for the STLINK-V3MINIE using industrial-grade push-in spring terminal blocks (Phoenix PTSA 0.5).  
+It includes onboard ESD protection for enhanced device safety and signal integrity.
 
 ### Key Features
 
-- ✅ **ESD Protection** – Signal lines are protected against electrostatic discharge, improving safety and stability of programming and debugging operations.  
-- ✅ **Phoenix PTSA 0.5 Terminal Blocks** – Spring-loaded terminals allow quick, tool-less wire connections for SWD, UART, power, and other signals.  
-- ✅ **DIN Rail Mounting** – The adapter can be easily installed on a 35 mm DIN rail, ideal for control cabinets, test stations, or embedded setups.  
-- ✅ **Dedicated for STLINK-V3MINIE** – Fully compatible with the powerful and affordable STLINK-V3MINIE debugger/programmer for STM32 microcontrollers.  
-- ✅ **Compact PCB Design** – Clean, space-efficient layout suited for professional use.
+- ✅ **Integrated ESD Protection** – Protects signal lines against electrostatic discharge, improving reliability during development and testing.  
+- ✅ **Phoenix PTSA 0.5 Terminal Blocks** – High-quality spring-loaded terminals enable quick and reliable wire connections (SWD, UART, power).  
+- ✅ **DIN Rail Mounting** – Compatible with standard 35 mm DIN rails. Ideal for lab setups, production lines, or industrial enclosures.  
+- ✅ **Designed for STLINK-V3MINIE** – Fully compatible with ST's compact and cost-effective STM32 debugger/programmer.  
+- ✅ **Professional Compact Design** – Space-efficient PCB layout for easy integration into demanding environments.
 
 ---
 
@@ -25,22 +28,41 @@ This adapter enables secure and tool-free connections to the STLINK-V3MINIE usin
 - Electronics R&D and diagnostics with enhanced durability
 
 ---
-## PCB manufacturing
-Schematics, gerbers and Bill of Materials (BOM) are available under *Electronic Design* directory. PCBs can be oredered on JLCPCB or any other PCB manufacturer. It is recommended to buy components from reliable sources like Mouse, Farnell, Digikey, TME. All symbols and footprints on the schematics was acquired from mouser page.
 
-## Bill of Materials
-BOM available in Electronic Design package. 
-#### DIN Holder:
-* ITALTRONIC 2x 07.6010000  
-* ITALTRONIC 1x 07.6000000  
+## 🛠️ PCB Manufacturing
 
-## Images
-![Image Top](./Images/STLINK_V3_MINIR_Adapter_top.png)
+All design files, including schematics, Gerber files, and BOM, are located in the `Electronic Design` directory.  
+PCBs can be ordered from JLCPCB or any preferred manufacturer.  
+
+It is recommended to purchase components from trusted distributors such as Mouser, Farnell, Digi-Key, or TME.  
+All schematic symbols and footprints were sourced from Mouser’s official library or product pages.
+
+---
+
+## 🧾 Bill of Materials
+
+The full BOM is included in the `Electronic Design` package.
+
+### DIN Rail Mount Clips
+
+- ITALTRONIC 2× [07.6010000](https://www.italtronic.com/en/products/din-rail-supports/07-6010000)  
+- ITALTRONIC 1× [07.6000000](https://www.italtronic.com/en/products/din-rail-supports/07-6000000)
+
+---
+
+## 🖼️ Images
+
+Top and bottom views of the assembled adapter:
+
+![Image Top](./Images/STLINK_V3_MINIR_Adapter_top.png)  
 ![Image Bottom](./Images/STLINK_V3_MINIR_Adapter_bot.png)
 
+---
 
-### Contributions
-If you find any bugs, have suggestions, or would like to contribute to the development of this project, feel free to contact me or submit a pull request (PR). Your contributions are greatly appreciated, and I am always open to feedback and collaboration. Thank you for helping to improve this project!
+## 🤝 Contributions
+
+Contributions, issues, and suggestions are welcome!  
+Feel free to open an issue or submit a pull request if you find a bug or want to improve the project.
 
 ---
 
@@ -60,3 +82,9 @@ If you find any bugs, have suggestions, or would like to contribute to the devel
 
 - 💡 [ST Community Forum – STLINK topics](https://community.st.com/s/topic/0TO0X000000BSqLWAW/stlink)  
   Discussions, troubleshooting, and tips shared by developers.
+
+---
+
+## 📜 License
+
+This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
